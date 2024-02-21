@@ -124,13 +124,13 @@ const OutlineTab = ({ intl }) => {
   }, [location.search]);
 
   return (
-    <>
+    <div>
       <div data-learner-type={learnerType} className="row w-100 mx-0 my-3 justify-content-between">
-        <div className="col-12 col-sm-auto p-0">
-          <div role="heading" aria-level="1" className="h2">{title}</div>
+        <div style={{ margin: 'auto auto' }} className="col-12 col-sm-auto p-0">
+          <div role="heading" aria-level="1" className="h3">{title}</div>
         </div>
       </div>
-      <div className="row course-outline-tab">
+      <div style={{ maxWidth: '90%', margin: 'auto auto', boxShadow: '10px 10px 7px 0px rgba(15,15,74,0.50)' }} className="row course-outline-tab">
         <AccountActivationAlert />
         <div className="col-12">
           <AlertList
@@ -212,7 +212,7 @@ const OutlineTab = ({ intl }) => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

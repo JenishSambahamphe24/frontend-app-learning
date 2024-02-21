@@ -1,0 +1,42 @@
+.dates-day {
+  position: relative;
+}
+
+.dates-line-top {
+  display: inline-block;
+  position: absolute;
+  left: 0.45rem;
+  top: 0;
+  height: 0.45rem;
+  z-index: 0;
+}
+
+.dates-dot {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  left: 0.15rem;
+  top: 0.45rem;
+  height: 0.6rem;
+  width: 0.6rem;
+  z-index: 1;
+}
+.dates-dot.dates-bg-today {
+  left: 0;
+  top: 0.15rem;
+  height: 0.9rem;
+  width: 0.9rem;
+}
+
+.dates-line-bottom {
+  display: inline-block;
+  position: absolute;
+  top: 1.05rem;
+  bottom: 0;
+  left: 0.45rem;
+  z-index: 0;
+}
+
+.dates-bg-today {
+  background: #ffdb87;
+}/*# sourceMappingURL=Day.css.map */

@@ -128,7 +128,7 @@ const ProctoringInfoPanel = ({ intl }) => {
       .finally(() => {
         dispatch(fetchProctoringInfoResolved());
       });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   let onboardingExamButton = null;
@@ -173,7 +173,7 @@ const ProctoringInfoPanel = ({ intl }) => {
   return (
     // eslint-disable-next-line react/jsx-no-useless-fragment
     <>
-      { showInfoPanel && (
+      {showInfoPanel && (
         <section className={`mb-4 p-3 outline-sidebar-proctoring-panel ${getBorderClass()}`}>
           <h2 className="h4" id="outline-sidebar-upgrade-header">{intl.formatMessage(messages.proctoringInfoPanel)}</h2>
           <div>

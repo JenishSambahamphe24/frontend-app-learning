@@ -67,8 +67,8 @@ const InstructorToolbar = (props) => {
 
   return (!didMount ? null : (
     <div data-testid="instructor-toolbar">
-      <div className="bg-primary text-white">
-        <div className="container-xl py-3 d-md-flex justify-content-end align-items-start">
+      <div className="mt-3">
+        <div className="container-xl py-1 d-md-flex justify-content-end align-items-start">
           <div className="align-items-center flex-grow-1 d-md-flex mx-1 my-1">
             <MasqueradeWidget courseId={courseId} onError={showMasqueradeError} />
           </div>
@@ -80,12 +80,12 @@ const InstructorToolbar = (props) => {
           )}
           {urlStudio && (
             <span className="mx-1 my-1">
-              <a className="btn btn-inverse-outline-primary" href={urlStudio}>Studio</a>
+              <a className="btn btn-outline-primary" href={urlStudio}>Studio</a>
             </span>
           )}
           {urlInsights && (
             <span className="mx-1 my-1">
-              <a className="btn btn-inverse-outline-primary" href={urlInsights}>Insights</a>
+              <a className="btn btn-primary" href={urlInsights}>Insights</a>
             </span>
           )}
         </div>

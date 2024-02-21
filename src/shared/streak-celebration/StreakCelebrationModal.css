@@ -1,0 +1,54 @@
+.streak-modal {
+  text-align: center;
+}
+.streak-modal .modal-header {
+  padding-top: 1.875rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+  justify-content: center;
+}
+.streak-modal .modal-header button {
+  position: absolute;
+  right: 1rem;
+}
+.streak-modal .modal-header button::after {
+  content: none;
+}
+.streak-modal .modal-title {
+  padding-top: 1.25rem;
+  font-size: 2rem;
+}
+.streak-modal .modal-body {
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.streak-modal .modal-body .pgn__modal-body-content {
+  text-align: center;
+}
+.streak-modal .modal-footer {
+  border-top: 0;
+  justify-content: center;
+}
+.streak-modal .modal-image {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+.streak-modal .factoid-wrapper {
+  font-size: 0.875rem;
+  text-align: left;
+  max-width: 85%;
+}
+
+@media screen and (min-width: 570px) {
+  .streak-modal {
+    width: 33.25rem;
+    max-width: 33.25rem;
+  }
+  .streak-modal .calendar {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .streak-modal .factoid-wrapper {
+    max-width: 90%;
+  }
+}/*# sourceMappingURL=StreakCelebrationModal.css.map */

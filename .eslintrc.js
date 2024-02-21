@@ -13,5 +13,4 @@ const config = createConfig('eslint', {
     'func-names': 'off',
   },
 });
-
 module.exports = config;
