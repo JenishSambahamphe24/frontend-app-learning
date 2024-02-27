@@ -130,7 +130,7 @@ const OutlineTab = ({ intl }) => {
           <div role="heading" aria-level="1" className="h3">{title}</div>
         </div>
       </div>
-      <div style={{ maxWidth: '90%', margin: 'auto auto', boxShadow: '10px 10px 7px 0px rgba(15,15,74,0.50)' }} className="row course-outline-tab">
+      <div style={{ maxWidth: '90%', margin: 'auto auto 30px auto', boxShadow: '10px 10px 7px 0px rgba(15,15,74,0.50)' }} className="row course-outline-tab">
         <AccountActivationAlert />
         <div className="col-12">
           <AlertList

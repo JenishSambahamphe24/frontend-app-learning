@@ -312,7 +312,7 @@ const UpgradeNotification = ({
   useEffect(() => {
     sendTrackingLogEvent('edx.bi.course.upgrade.sidebarupsell.displayed', eventProperties);
     sendTrackEvent('Promotion Viewed', promotionEventProperties);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!verifiedMode) {
